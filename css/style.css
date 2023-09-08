@@ -1,0 +1,61 @@
+body {
+  background-color: #fcf2e2;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  font-size: 21px;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 45%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  font-weight: 400;
+}
+
+hr {
+  color: black;
+  width: 50%;
+  height: 0px;
+  align-items: center;
+}
+
+p {
+  font-size: 66px;
+  padding-left: 360px;
+  padding-top: 80px;
+}
+
+h1 {
+  font-size: 50px;
+  padding-left: 170px;
+  padding-top: 5px;
+  font-weight: 100;
+}
+
+.main-picture {
+  width: 554px;
+  height: 415px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: 5px;
+}
+.logo {
+  align-items: center;
+  width: 25px;
+  height: 25px;
+}
+footer {
+  margin-top: auto;
+  text-align: center;
+}
